@@ -9,7 +9,97 @@
 
 <body>
   <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="header" class="bg-white my-4 p-5 rounded">
+      <h1 class="display-4">Header headline is here</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id excepturi recusandae eius eaque minima accusantium inventore quia autem. Sunt hic voluptatem harum nobis sequi tempore ullam fugiat beatae voluptatum tempora.</p>
+      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    </div>
+  </div>
+
+  <div class="container highlight">
+    <div class="row">
+      <div class="col-md-6 col-lg-8">
+        <h1>This is a headline</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim magnam ut odit. Tempora quibusdam fugit aperiam saepe quam veritatis quis minima iusto nisi a temporibus distinctio tenetur architecto, vitae officiis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odit unde perferendis ex doloribus nulla eligendi suscipit iure, fugit minus quibusdam cum laudantium ipsam sit. Dolorem laboriosam placeat magni a!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem rerum deserunt ipsam voluptatibus. Adipisci voluptas amet hic consectetur. Aut ea fugiat explicabo illo velit eos ex numquam delectus expedita nemo.</p>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <img src="img/guten.jpeg" class="img-fluid" alt="Bible">
+        <p class="caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="card text-center g-4 my-4">
+      <div class="card-header">
+        Featured
+      </div>
+    </div>
+  </footer>
 
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.js"></script>
